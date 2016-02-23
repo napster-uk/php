@@ -3,8 +3,12 @@
 
 $object = new stdClass;
 
-$object->name = 'John';
+$object->name = ['John','Belly','Sue'];
 
-echo $object->name;
+$products=$object->name;
+foreach ($products as $names){
 
+    echo $names . '<br>';
+
+}
 ?>
