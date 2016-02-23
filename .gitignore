@@ -15,4 +15,5 @@ events/.htaccess
 /.idea/
 /robots.txt
 /magicento.xml
+.idea/magicento.xml
 
